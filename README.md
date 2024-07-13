@@ -80,31 +80,31 @@ Developed a comprehensive tool for analyzing stock market data and predicting st
 ## Installation
 
 1. **Clone the repository**:
-   \`\`\`bash
+  ```bash
    git clone https://github.com/okechukwu-acc/stock-market-analysis-tool.git
    cd stock-market-analysis-tool
-   \`\`\`
+   ```
 
 2. **Create and activate a virtual environment**:
-   \`\`\`bash
+   ```bash
    python3 -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   \`\`\`
+   ```
 
 3. **Install the required packages**:
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 4. **Set up the database**:
-   \`\`\`bash
+   ```bash
    flask db upgrade
-   \`\`\`
+   ```
 
 5. **Run the application**:
-   \`\`\`bash
+   ```bash
    flask run
-   \`\`\`
+   ```
 
 ## Deployment
 
